@@ -1,0 +1,17 @@
+Proyek Homestay
+
+Aplikasi Homestay yg didalamnya terdapat fitur untuk pencarian Homestay, data Homestay diambil dari data JSON.
+Homestay terhubung dengan google maps dan juga penanda (marker) pada peta dengan info harganya. 
+
+Aplikasi Homestay terdapat 4 component:
+1 Component Utama Homestay App (App.js)
+2 homestay.js
+3 Peta
+4 Marker (marker.js)
+-----
+1 Buat CSS nya dulu untuk flex
+2 Buat kodingan dasar App.js, className app keseluruhan, didalam app ada main & homestays.
+	Lalu ada className peta, yg bakal diisi sama peta dan marker. 
+3 Lalu buat component homestay.js, buat folder components pada src. Buat codingan untuk foto dan judul
+4 Pada App.js masukkan codingan untuk ngambil data format JSON, karena data state maka perlu inisialisasi state dulu buat constructor. Untuk ambil data dari JSON, perlu componentDidMount (fetch API)
+(Lalu nampilin google maps deh) 
